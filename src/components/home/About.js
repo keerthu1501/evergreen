@@ -17,16 +17,13 @@ export default function About() {
                 <span className="text-primary text-uppercase">Evergreen Meadows Glamps</span>
               </h1>
               <p className="mb-4">
-              Evergreen Meadows Glamps Kodaikanal is a great choice for travellers looking for a 3star hotel
-              in Kodaikanal. This Hotel stands out as one of the highly recommended hotel in Kodaikanal. 
-              Hotel is rated out of 5, which is considered as very good.
-              From all the 3 Star hotels in Kodaikanal, this property is very much popular among the tourists. 
-              A smooth check-in/check-out process, flexible policies and friendly management garner great customer
-              satisfaction for this property. The Hotel has standard Check-In time as 02:00 PM and Check-Out time 
-              as 12:00 PM. It is a couple-friendly property, hence it is absolutely safe for unmarried couples to 
-              stay here.
-              You can find numerous hotels in Kodaikanal under different categories and this property is one 
-              the best hotel under its category.
+              At Evergreen Meadows Glamps, you can experience the ultimate escape in the heart of nature, 
+              where breathtaking mountain views and luxurious accommodations combine to create an unforgettable glamping adventure.
+              Imagine waking up to the tranquil sound of birds chirping, with the majestic mountains as your backdrop. 
+              Our carefully crafted, private Glamps offer a unique blend of rugged wilderness and refined elegance, 
+              with premium amenities that include comfortable bedding, premium linens. 
+              Whether you're seeking a romantic getaway or a family adventure, our glamping site provides the perfect retreat. 
+              So come, relax and immerse yourself in the stunning scenery, as you indulge in the very best of glamping.
               </p>
               <div className="row g-3 pb-4">
                 {about.map((item, key) => (

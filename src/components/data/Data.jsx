@@ -55,27 +55,27 @@ export const navList = [
       icon: <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>,
     },
     {
-      icon: <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>,
+      icon: <a href="https://www.instagram.com/evergreen_meadows_glamps/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>,
     },
     {
       icon: <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>,
     },
     {
-      icon: <a href="https://www.youtube.com/c/yourchannel" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>,
+      icon: <a href="https://www.youtube.com/@evergreenmeadowsglamps" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>,
     },
   ];
   
   
   export const carouselData = [
     {
-      img: "https://iili.io/dRqTtSI.jpg",
+      img: "https://iili.io/dRNJUAl.jpg ",
       title: "Discover A Brand Luxurious Hotel",
       subtitle: "luxury living",
       btn1: "Our Room",
       btn2: "Book Room",
     },
     {
-      img: "https://iili.io/dRqTtSI.jpg",
+      img: "https://iili.io/dRNARCg.jpg",
       title: "Discover A Brand Luxurious Hotel",
       subtitle: "luxury living",
       btn1: "Our Room",
