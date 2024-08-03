@@ -50,7 +50,7 @@ export default function About() {
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.1s"
-                    src="https://iili.io/dRqTtSI.jpg"
+                    src="https://iili.io/dRNJgN2.jpg"
                     style={{ marginTop: "25%" }}
                   />
                 </div>
@@ -58,10 +58,10 @@ export default function About() {
                   <img
                     className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.3s"
-                    src="https://iili.io/dRqTtSI.jpg"
+                    src="https://1drv.ms/i/c/017cb4e8207edcae/IQNvu96N8H2JR4XS5zsPAX44AUuH_DutMC63uZM0WvbAE-0"
                   />
                 </div>
-                <div className="col-6 text-end">
+                {/* <div className="col-6 text-end">
                   <img
                     className="img-fluid rounded w-50 wow zoomIn"
                     data-wow-delay="0.5s"
@@ -74,7 +74,7 @@ export default function About() {
                     data-wow-delay="0.7s"
                     src="https://iili.io/dRqTtSI.jpg"
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

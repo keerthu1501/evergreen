@@ -71,15 +71,15 @@ export const navList = [
       img: "https://iili.io/dRNJUAl.jpg ",
       title: "Evergreen Meadows Glamps",
       subtitle: "Immerse in nature's charm at this cozy refuge ",
-      btn1: "Our Room",
-      btn2: "Book Room",
+      // btn1: "Our Room",
+      // btn2: "Book Room",
     },
     {
       img: "https://iili.io/dRO8saa.jpg",
       title: "Evergreen Meadows Glamps",
       subtitle: " a peaceful haven that captures your heart instantly",
-      btn1: "Our Room",
-      btn2: "Book Room",
+      // btn1: "Our Room",
+      // btn2: "Book Room",
     },
   ];
   export const about = [
@@ -220,17 +220,7 @@ export const navList = [
   export const contact = [
     {
       icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
-      title: "Booking",
-      email: "evergreenmeadowsglamps@gmail.com",
-    },
-    {
-      icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
-      title: "Technical",
-      email: "evergreenmeadowsglamps@gmail.com",
-    },
-    {
-      icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
-      title: "General",
+      title: "E-mail Us",
       email: "evergreenmeadowsglamps@gmail.com",
     },
   ];
