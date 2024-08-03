@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/evergreen/static/css/main.dec407cf.css",
-    "main.js": "/evergreen/static/js/main.3c05ca6b.js",
+    "main.js": "/evergreen/static/js/main.314bfdc7.js",
     "static/media/carousel-1.jpg": "/evergreen/static/media/carousel-1.e4c7bde467439d19fde1.jpg",
     "static/media/slick.svg": "/evergreen/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/evergreen/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,10 +9,10 @@
     "static/media/slick.woff": "/evergreen/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/evergreen/index.html",
     "main.dec407cf.css.map": "/evergreen/static/css/main.dec407cf.css.map",
-    "main.3c05ca6b.js.map": "/evergreen/static/js/main.3c05ca6b.js.map"
+    "main.314bfdc7.js.map": "/evergreen/static/js/main.314bfdc7.js.map"
   },
   "entrypoints": [
     "static/css/main.dec407cf.css",
-    "static/js/main.3c05ca6b.js"
+    "static/js/main.314bfdc7.js"
   ]
 }
