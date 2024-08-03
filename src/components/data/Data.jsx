@@ -69,15 +69,15 @@ export const navList = [
   export const carouselData = [
     {
       img: "https://iili.io/dRNJUAl.jpg ",
-      title: "Discover A Brand Luxurious Hotel",
-      subtitle: "luxury living",
+      title: "Evergreen Meadows Glamps",
+      subtitle: "Immerse in nature's charm at this cozy refuge ",
       btn1: "Our Room",
       btn2: "Book Room",
     },
     {
-      img: "https://iili.io/dRNARCg.jpg",
-      title: "Discover A Brand Luxurious Hotel",
-      subtitle: "luxury living",
+      img: "https://iili.io/dRO8saa.jpg",
+      title: "Evergreen Meadows Glamps",
+      subtitle: " a peaceful haven that captures your heart instantly",
       btn1: "Our Room",
       btn2: "Book Room",
     },
