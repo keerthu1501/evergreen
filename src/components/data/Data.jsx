@@ -134,28 +134,28 @@ export const navList = [
       discription: " CCTV | Fire Extinguishers",
     },
   ];
-  export const team = [
-    {
-      image: "https://iili.io/dRqTtSI.jpg",
-      name: "Full Name",
-      designation: "Designation",
-    },
-    {
-      image: "https://iili.io/dRqTtSI.jpg",
-      name: "Full Name",
-      designation: "Designation",
-    },
-    {
-      image: "https://iili.io/dRqTtSI.jpg",
-      name: "Full Name",
-      designation: "Designation",
-    },
-    {
-      image: "https://iili.io/dRqTtSI.jpg",
-      name: "Full Name",
-      designation: "Designation",
-    },
-  ];
+  // export const team = [
+  //   {
+  //     image: "https://iili.io/dRqTtSI.jpg",
+  //     name: "Full Name",
+  //     designation: "Designation",
+  //   },
+  //   {
+  //     image: "https://iili.io/dRqTtSI.jpg",
+  //     name: "Full Name",
+  //     designation: "Designation",
+  //   },
+  //   {
+  //     image: "https://iili.io/dRqTtSI.jpg",
+  //     name: "Full Name",
+  //     designation: "Designation",
+  //   },
+  //   {
+  //     image: "https://iili.io/dRqTtSI.jpg",
+  //     name: "Full Name",
+  //     designation: "Designation",
+  //   },
+  // ];
   
   export const footerItem = [
     {
