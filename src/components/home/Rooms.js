@@ -1,6 +1,6 @@
 import React from "react";
 import CommonHeading from "../common/CommonHeading";
-import { facility, roomItems } from "../data/Data";
+import { roomItems } from "../data/Data";
 
 export default function Rooms() {
   return (
@@ -27,14 +27,14 @@ export default function Rooms() {
                       <h5 className="mb-0">{item.name}</h5>
                       <div className="ps-2">{item.star}</div>
                     </div>
-                    <div className="d-flex mb-3">
+                    {/* <div className="d-flex mb-3">
                       {facility.map((item, index) => (
                         <small className="border-end me-3 pe-3">
                           {item.icon}
                           {item.quantity} {item.facility}
                         </small>
                       ))}
-                    </div>
+                    </div> */}
                     <p className="text-body mb-3">{item.description}</p>
                     <div className="d-flex justify-content-between">
                       <a
@@ -43,7 +43,7 @@ export default function Rooms() {
                       >
                         {item.yellowbtn}
                       </a>
-                      <a className="btn btn-sm btn-dark rounded py-2 px-4" href="">
+                      <a className="btn btn-sm btn-dark rounded py-2 px-4" href="https://wa.me/+918939316597?text=Hello!%20I%20would%20like%20to%20book%20a%20room%20at%20Evergreen%20Meadows%20Kodaikanal.">
                         {item.darkbtn}
                       </a>
                     </div>

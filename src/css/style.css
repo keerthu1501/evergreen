@@ -510,3 +510,13 @@
     height: 40px;
   }
 
+/* contact  */
+
+.form-floating .position-absolute {
+    pointer-events: none; /* Ensures the icon does not block interaction with the input field */
+  }
+  
+.form-floating input {
+    padding-left: 2.5rem; /* Adjust padding to make space for the icon */
+  }
+  

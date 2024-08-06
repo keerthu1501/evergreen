@@ -259,48 +259,48 @@ export const navList = [
   
   export const roomItems = [
     {
-      img: "https://iili.io/dRqTtSI.jpg",
-      price: "Rs.10350/night",
+      img: "https://iili.io/dYFne7j.md.jpg",
+      price: "Rs.2800 /Person",
       name: "THE MAGESTIC CROWN",
-      star: [
-        <small class="fa fa-star text-primary"></small>,
-        <small class="fa fa-star text-primary"></small>,
-        <small class="fa fa-star text-primary"></small>,
-        <small class="fa fa-star text-primary"></small>,
-        <small class="fa fa-star text-primary"></small>,
-      ],
+      // star: [
+      //   <small class="fa fa-star text-primary"></small>,
+      //   <small class="fa fa-star text-primary"></small>,
+      //   <small class="fa fa-star text-primary"></small>,
+      //   <small class="fa fa-star text-primary"></small>,
+      //   <small class="fa fa-star text-primary"></small>,
+      // ],
       description:"Room : 1 King Bed, 1 Sofa Cum Bed with 5 people can stay ",
       yellowbtn: "View Detail",
       darkbtn: "book now",
     },
   
     {
-      img: "https://iili.io/dRqTtSI.jpg",
-      price: "Rs.5000/night",
+      img: "https://iili.io/dYFf26b.jpg",
+      price: "Rs.2000/Person",
       name: "THE POD",
-      star: [
-        <small class="fa fa-star text-primary"></small>,
-        <small class="fa fa-star text-primary"></small>,
-        <small class="fa fa-star text-primary"></small>,
-        <small class="fa fa-star text-primary"></small>,
-        <small class="fa fa-star text-primary"></small>,
-      ],
+      // star: [
+      //   <small class="fa fa-star text-primary"></small>,
+      //   <small class="fa fa-star text-primary"></small>,
+      //   <small class="fa fa-star text-primary"></small>,
+      //   <small class="fa fa-star text-primary"></small>,
+      //   <small class="fa fa-star text-primary"></small>,
+      // ],
       description:
         "Room : 1 bed with 3 people can stay | three pods available  ",
       yellowbtn: "View Detail",
       darkbtn: "book now",
     },
     {
-      img: "https://iili.io/dRqTtSI.jpg",
-      price: "Rs.4000/night",
+      img: "https://iili.io/dYFnOdb.md.jpg",
+      price: "Rs.1500/Person",
       name: "THE FRAME",
-      star: [
-        <small class="fa fa-star text-primary"></small>,
-        <small class="fa fa-star text-primary"></small>,
-        <small class="fa fa-star text-primary"></small>,
-        <small class="fa fa-star text-primary"></small>,
-        <small class="fa fa-star text-primary"></small>,
-      ],
+      // star: [
+      //   <small class="fa fa-star text-primary"></small>,
+      //   <small class="fa fa-star text-primary"></small>,
+      //   <small class="fa fa-star text-primary"></small>,
+      //   <small class="fa fa-star text-primary"></small>,
+      //   <small class="fa fa-star text-primary"></small>,
+      // ],
       description:
         "Room : 1 bed with 2 people stay | Special for sunrise view ",
       yellowbtn: "View Detail",
@@ -308,19 +308,19 @@ export const navList = [
     },
   ];
   
-  export const facility = [
-    {
-      icon: <i class="fa fa-bed text-primary me-2"></i>,
-      quantity: 3,
-      facility: "bed",
-    },
-    {
-      icon: <i class="fa fa-bath text-primary me-2"></i>,
-      quantity: 2,
-      facility: "bath",
-    },
-    {
-      icon: <i class="fa fa-wifi text-primary me-2"></i>,
-      facility: "Wifi",
-    },
-  ];
+  // export const facility = [
+  //   {
+  //     icon: <i class="fa fa-bed text-primary me-2"></i>,
+  //     quantity: 3,
+  //     facility: "bed",
+  //   },
+  //   {
+  //     icon: <i class="fa fa-bath text-primary me-2"></i>,
+  //     quantity: 2,
+  //     facility: "bath",
+  //   },
+  //   {
+  //     icon: <i class="fa fa-wifi text-primary me-2"></i>,
+  //     facility: "Wifi",
+  //   },
+  // ];

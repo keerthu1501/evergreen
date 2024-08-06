@@ -1,26 +1,69 @@
-import React from "react";
+
+import React, { useState } from "react";
 import Heading from "../components/common/Heading";
 import CommonHeading from "../components/common/CommonHeading";
 import { contact } from "../components/data/Data";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import { FaCalendarAlt } from 'react-icons/fa';
+import "../css/style.css";
 
 export default function Contact() {
+  const [phone, setPhone] = useState('');
+  const [phoneError, setPhoneError] = useState('');
+  const [selectedDate, setSelectedDate] = useState(null);
+  const [message, setMessage] = useState('');
+  const [name, setName] = useState('');
+
+  const handlePhoneChange = (e) => {
+    const value = e.target.value;
+    const regex = /^[0-9\b]+$/; // Regular expression to allow only numbers
+
+    if (value === '' || regex.test(value)) {
+      setPhone(value);
+      setPhoneError('');
+    } else {
+      setPhoneError('Please enter a valid phone number.');
+    }
+  };
+
+  const handleMessageChange = (e) => {
+    setMessage(e.target.value);
+  };
+
+  const handleNameChange = (e) => {
+    setName(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const phoneNumber = '+918939316597'; // Replace with your WhatsApp number
+    const bookingMessage = `Hello! I would like to book a room at Evergreen Meadows Kodaikanal on ${selectedDate ? selectedDate.toLocaleDateString() : 'a date'}.My name is ${name}. My phone number is ${phone}. Message: ${message}`;
+
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(bookingMessage)}`;
+
+    // Open the WhatsApp URL
+    window.open(whatsappURL, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <>
       <Heading heading="Contact" title="Home" subtitle="Contact" />
 
-      <div class="container-xxl py-5">
-        <div class="container">
+      <div className="container-xxl py-5">
+        <div className="container">
           <CommonHeading
-            heading="Contact Us"
-            subtitle="Contact "
-            title="For Any Query"
+            heading="☎️"
+            subtitle="Contact Us"
+            // title="For Any Query"
           />
-          <div class="row g-4">
-            <div class="col-12">
-              <div class="row gy-4">
+          <div className="row g-4">
+            <div className="col-12">
+              <div className="row gy-4">
                 {contact.map((item, index) => (
-                  <div class="col-md-4">
-                    <h6 class="section-title text-start text-primary text-uppercase">
+                  <div className="col-md-4" key={index}>
+                    <h6 className="section-title text-start text-primary text-uppercase">
                       {item.title}
                     </h6>
                     <p>
@@ -31,67 +74,80 @@ export default function Contact() {
                 ))}
               </div>
             </div>
-            <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div className="col-md-6 wow fadeIn" data-wow-delay="0.1s">
               <iframe
-                class="position-relative rounded w-100 h-100"
+                className="position-relative rounded w-100 h-100"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.0789021634932!2d77.39025107904429!3d10.255220242478114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b076556340b2d3b%3A0x6ee4c44c8193d65e!2sEvergreen%20Meadows%20Glamps!5e0!3m2!1sen!2sin!4v1722343908057!5m2!1sen!2sin" 
-                frameborder="0"
+                frameBorder="0"
                 style={{ minHeight: "350px", border: "0" }}
-                allowfullscreen=""
+                allowFullScreen=""
                 aria-hidden="false"
-                tabindex="0"
+                tabIndex="0"
               ></iframe>
             </div>
-            <div class="col-md-6">
-              <div class="wow fadeInUp" data-wow-delay="0.2s">
-                <form>
-                  <div class="row g-3">
-                    <div class="col-md-6">
-                      <div class="form-floating">
+            <div className="col-md-6">
+              <div className="wow fadeInUp" data-wow-delay="0.2s">
+                <form onSubmit={handleSubmit}>
+                  <div className="row g-3">
+                    <div className="col-md-6">
+                      <div className="form-floating">
                         <input
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           id="name"
                           placeholder="Your Name"
+                          value={name}
+                          onChange={handleNameChange}
                         />
-                        <label for="name">Your Name</label>
+                        <label htmlFor="name">Your Name</label>
                       </div>
                     </div>
-                    <div class="col-md-6">
-                      <div class="form-floating">
+                    <div className="col-md-6">
+                      <div className="form-floating">
                         <input
-                          type="email"
-                          class="form-control"
-                          id="email"
-                          placeholder="Your Email"
+                          type="tel"
+                          className={`form-control ${phoneError ? 'is-invalid' : ''}`}
+                          id="phone"
+                          placeholder="Enter Your phone number"
+                          value={phone}
+                          onChange={handlePhoneChange}
                         />
-                        <label for="email">Your Email</label>
+                        {phoneError && (
+                          <div className="invalid-feedback">{phoneError}</div>
+                        )}
+                        <label htmlFor="phone">Your Phone Number</label>
                       </div>
                     </div>
-                    <div class="col-12">
-                      <div class="form-floating">
-                        <input
-                          type="text"
-                          class="form-control"
-                          id="subject"
-                          placeholder="Subject"
+                    <div className="col-12">
+                      <div className="form-floating">
+                        <DatePicker
+                          selected={selectedDate}
+                          onChange={(date) => setSelectedDate(date)}
+                          className="form-control"
+                          id="date"
+                          placeholderText="Choose booking date"
+                          dateFormat="dd/MM/yyyy"
                         />
-                        <label for="subject">Subject</label>
+                        <label htmlFor="date"> 
+                          <FaCalendarAlt className="position-absolute top-50 start-5 translate-middle-y me-3" />
+                        </label>
                       </div>
                     </div>
-                    <div class="col-12">
-                      <div class="form-floating">
+                    <div className="col-12">
+                      <div className="form-floating">
                         <textarea
-                          class="form-control"
+                          className="form-control"
                           placeholder="Leave a message here"
                           id="message"
                           style={{ height: "150px" }}
+                          value={message}
+                          onChange={handleMessageChange}
                         ></textarea>
-                        <label for="message">Message</label>
+                        <label htmlFor="message">Message</label>
                       </div>
                     </div>
-                    <div class="col-12">
-                      <button class="btn btn-primary w-100 py-3" type="submit">
+                    <div className="col-12">
+                      <button className="btn btn-primary w-100 py-3" type="submit">
                         Send Message
                       </button>
                     </div>
