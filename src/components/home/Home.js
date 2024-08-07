@@ -5,18 +5,16 @@ import About from "./About";
 import Services from "./Services";
 import Rooms from "./Rooms";
 import Sliders from "./Slider";
-import Gallery from "./Gallery";
 
 export default function Home() {
   return (
     <>
-      <Carousel />
-      <Book />
-      <About />
-      <Rooms />
-      <Services />
-      <Sliders />
-      <Gallery/>
+      <Carousel/>
+      <Book/>
+      <About/>
+      <Rooms/>
+      <Services/>
+      <Sliders/>
     </>
   );
 }

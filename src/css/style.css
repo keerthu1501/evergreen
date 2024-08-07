@@ -549,27 +549,32 @@
     padding-left: 2.5rem; /* Adjust padding to make space for the icon */
   }
  
-  
-  /* gallery */
-
-  .gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    padding: 20px;
+/* Gallery.css */
+.gallery-item {
+    border: 5px solid #fff; /* White border around the images */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    position: relative; /* Positioning context for caption */
   }
   
-  .gallery-item {
-    flex: 1 1 calc(33.333% - 20px); /* Adjust based on the number of items per row */
-    margin: 10px;
+  .gallery-item:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
   }
   
-  .gallery-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  .gallery-caption {
+    background: rgba(255, 255, 255, 255); /* Dark semi-transparent background for the caption */
+    color: #800000; /* Light color for text to ensure visibility */
+    /* opacity: 0; */
+    transition: opacity 0.3s ease; /* Smooth transition for caption visibility */
+    text-align: center;
+    padding: 10px; /* Add padding for spacing around text */
+    position: absolute; /* Absolute positioning to overlay caption */
+    bottom: 0; /* Position at the bottom of the image */
+    left: 0; /* Align with the left edge */
+    width: 100%; /* Span the full width of the image */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
   }
   
+  .gallery-item:hover .gallery-caption {
+    opacity: 1; /* Show caption on hover */
+  }
   

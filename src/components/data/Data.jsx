@@ -247,18 +247,48 @@ export const navList = [
   
 export const gallery = [
   {
-    id: 1,
-    imageUrl: "https://iili.io/dY3j85G.md.jpg",
+    imageUrl: "https://iili.io/dazGLlt.md.jpg",
+    title:"Candle Light Dinner",
     alt: "Image 1 Description"
   },
   {
-    id: 2,
-    imageUrl: "https://iili.io/dY3j85G.md.jpg",
+    imageUrl: "https://iili.io/dazGyx4.md.jpg",
+    title:"Sunset",
     alt: "Image 2 Description"
   },
   {
-    id: 3,
-    imageUrl: "https://iili.io/dY3j85G.md.jpg",
+    imageUrl: "https://iili.io/dazMHs2.md.jpg",
+    title:"Mount view",
+    alt: "Image 3 Description"
+  },
+  {
+    imageUrl: "https://iili.io/dazMdfS.md.jpg",
+    title:"Heartin Frame",
+    alt: "Image 3 Description"
+  },
+  {
+    imageUrl: "https://iili.io/dazMBbj.md.jpg",
+    title:"SunRise",
+    alt: "Image 3 Description"
+  },
+  {
+    imageUrl: "https://iili.io/dazMnzx.md.jpg",
+    title:"CampFire",
+    alt: "Image 3 Description"
+  },
+  {
+    imageUrl: "https://iili.io/dazM3g9.md.jpg",
+    title:"Food",
+    alt: "Image 3 Description"
+  },
+  {
+    imageUrl: "https://iili.io/dazMKJe.md.jpg",
+    title:"frame",
+    alt: "Image 3 Description"
+  },
+  {
+    imageUrl: "https://iili.io/dazMf5u.md.jpg",
+    title:"Glamph",
     alt: "Image 3 Description"
   },
 ];
