@@ -26,15 +26,7 @@ export default function Rooms() {
                     <div className="d-flex justify-content-between mb-3">
                       <h5 className="mb-0">{item.name}</h5>
                       <div className="ps-2">{item.star}</div>
-                    </div>
-                    {/* <div className="d-flex mb-3">
-                      {facility.map((item, index) => (
-                        <small className="border-end me-3 pe-3">
-                          {item.icon}
-                          {item.quantity} {item.facility}
-                        </small>
-                      ))}
-                    </div> */}
+                    </div>                  
                     <p className="text-body mb-3">{item.description}</p>
                     <div className="d-flex justify-content-between">
                       <a

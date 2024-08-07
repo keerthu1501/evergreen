@@ -38,7 +38,7 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const phoneNumber = '+918939316597'; // Replace with your WhatsApp number
+    const phoneNumber = '+916369309620'; // Replace with your WhatsApp number
     const bookingMessage = `Hello! I would like to book a room at Evergreen Meadows Kodaikanal on ${selectedDate ? selectedDate.toLocaleDateString() : 'a date'}.My name is ${name}. My phone number is ${phone}. Message: ${message}`;
 
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(bookingMessage)}`;
@@ -76,17 +76,16 @@ export default function Contact() {
             </div>
             <div className="col-md-6 wow fadeIn" data-wow-delay="0.1s">
               <iframe
-                className="position-relative rounded w-100 h-100"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.0789021634932!2d77.39025107904429!3d10.255220242478114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b076556340b2d3b%3A0x6ee4c44c8193d65e!2sEvergreen%20Meadows%20Glamps!5e0!3m2!1sen!2sin!4v1722343908057!5m2!1sen!2sin" 
-                
-                style={{ minHeight: "350px", border: "0" }}
-                allowFullScreen=""
-                aria-hidden="false"
-                tabIndex="0"
-              ></iframe>
+              className="position-relative rounded w-100 h-100"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.0789021634932!2d77.39025107904429!3d10.255220242478114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b076556340b2d3b%3A0x6ee4c44c8193d65e!2sEvergreen%20Meadows%20Glamps!5e0!3m2!1sen!2sin!4v1722343908057!5m2!1sen!2sin" 
+              style={{ minHeight: "350px", border: "0" }}
+              allowFullScreen="map"
+              aria-hidden="false"
+              tabIndex="0">
+              </iframe>
             </div>
             <div className="col-md-6">
-              <div className="wow fadeInUp" data-wow-delay="0.2s">
+              <div className="wow fadeInUp" data-wow-delay="0.1s">
                 <form onSubmit={handleSubmit}>
                   <div className="row g-3">
                     <div className="col-md-6">

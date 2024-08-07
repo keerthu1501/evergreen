@@ -18,6 +18,7 @@ import {
   Testimonial,
 } from "./pages/index";
 import Footer from "./components/common/Footer";
+import GalleryPage from "./pages/GalleryPage";
 import WhatsAppButton from './components/common/WhatsappButton';
 import ScrollToTop from "./components/home/ScrollToTop"; // Import ScrollToTop
 
@@ -38,9 +39,9 @@ export default function App() {
             <Route path="/*" element={<PageNotFound />} />
             <Route path="/rooms" element={<Room />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/gallery" element={<GalleryPage/>} />
           </Routes>
           <WhatsAppButton />
-         
           <Footer />
         </Router>
       </div>

@@ -6,10 +6,8 @@ export default function Footer() {
   return (
     <>
       <Newsletter />
-      <div
-        className="container-fluid bg-dark text-light footer wow fadeIn"
-        data-wow-delay="0.1s"
-      >
+
+      <div className="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
         <div className="container pb-5">
           <div className="row g-4">
             <div className="col-md-4 wow fadeIn" data-wow-delay="0.1s">
