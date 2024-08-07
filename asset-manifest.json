@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/evergreen/static/css/main.7bc1eaea.css",
-    "main.js": "/evergreen/static/js/main.f7dd74e2.js",
+    "main.css": "/evergreen/static/css/main.77d4877d.css",
+    "main.js": "/evergreen/static/js/main.566e1b15.js",
     "static/media/carousel-1.jpg": "/evergreen/static/media/carousel-1.e4c7bde467439d19fde1.jpg",
     "static/media/slick.svg": "/evergreen/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/evergreen/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/evergreen/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/evergreen/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/evergreen/index.html",
-    "main.7bc1eaea.css.map": "/evergreen/static/css/main.7bc1eaea.css.map",
-    "main.f7dd74e2.js.map": "/evergreen/static/js/main.f7dd74e2.js.map"
+    "main.77d4877d.css.map": "/evergreen/static/css/main.77d4877d.css.map",
+    "main.566e1b15.js.map": "/evergreen/static/js/main.566e1b15.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bc1eaea.css",
-    "static/js/main.f7dd74e2.js"
+    "static/css/main.77d4877d.css",
+    "static/js/main.566e1b15.js"
   ]
 }
