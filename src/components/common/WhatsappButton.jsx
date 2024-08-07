@@ -14,7 +14,7 @@ const WhatsAppButton = () => {
         rel="noopener noreferrer"
         className="btn btn-success"
       >
-        <i className="fab fa-whatsapp"></i> Chat with us
+        <i className="fab fa-whatsapp"></i>
       </a>
     </div>
   );

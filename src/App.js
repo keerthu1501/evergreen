@@ -14,16 +14,19 @@ import {
   PageNotFound,
   Room,
   Services,
-  Team,
+  // Team,
   Testimonial,
 } from "./pages/index";
 import Footer from "./components/common/Footer";
 import WhatsAppButton from './components/common/WhatsappButton';
+import ScrollToTop from "./components/home/ScrollToTop"; // Import ScrollToTop
+
 export default function App() {
   return (
     <>
       <div>
         <Router>
+          <ScrollToTop />
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -32,7 +35,7 @@ export default function App() {
             <Route path="/testimonial" element={<Testimonial />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/contact" element={<Contact />} />
-            {/* <Route path="/*" element={<PageNotFound />} /> */}
+            <Route path="/*" element={<PageNotFound />} />
             <Route path="/rooms" element={<Room />} />
             <Route path="/services" element={<Services />} />
           </Routes>

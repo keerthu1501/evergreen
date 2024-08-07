@@ -21,25 +21,26 @@ export const navList = [
     },
     {
       id: 5,
-      path: "/page",
-      text: "Page",
+      path: "/gallery",
+      text: "gallery",
       subItems: [
         {
           id: 51,
-          path: "/booking",
-          text: "Booking",
+          path: "/Stay",
+          text: "rooms",
         },
         {
           id: 52,
-          path: "/team",
-          text: "Our Team",
-        },
-        {
-          id: 53,
-          path: "/testimonial",
-          text: "Testimonial",
+          path: "/view",
+          text: "views",
         },
       ],
+      //   {
+      //     id: 53,
+      //     path: "/testimonial",
+      //     text: "Testimonial",
+      //   },
+      // ],
     },
     {
       id: 6,

@@ -1,6 +1,6 @@
 import AboutUs from "./AboutUs";
 import Booking from "./BookingPage";
-import Team from "./TeamPage";
+// import Team from "./TeamPage";
 import Testimonial from "./TestimonialPage";
 import Contact from "./ContactPage";
 import PageNotFound from "./PageNotFound";
@@ -11,7 +11,7 @@ export {
   Home,
   Booking,
   Testimonial,
-  Team,
+  // Team,
   AboutUs,
   Contact,
   PageNotFound,
