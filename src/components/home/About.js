@@ -1,6 +1,5 @@
 import React from "react";
-// import Heading from "../common/Heading";
-// import { about } from "../data/Data";
+
 
 export default function About() {
   return (
@@ -25,21 +24,7 @@ export default function About() {
               Whether you're seeking a romantic getaway or a family adventure, our glamping site provides the perfect retreat. 
               So come, relax and immerse yourself in the stunning scenery, as you indulge in the very best of glamping.
               </p>
-              {/* <div className="row g-3 pb-4">
-                {about.map((item, key) => (
-                  <div className="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
-                    <div className="border rounded p-1">
-                      <div className="border rounded text-center p-4">
-                        {item.icon}
-                        <h2 className="mb-1" data-toggle="counter-up">
-                          {item.count}
-                        </h2>
-                        <p className="mb-0">{item.text}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div> */}
+             
               <a className="btn btn-primary py-3 px-5 mt-2" href="https://www.youtube.com/@evergreenmeadowsglamps">
                 Explore More
               </a>

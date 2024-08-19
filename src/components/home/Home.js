@@ -1,16 +1,15 @@
 import React from "react";
 import Carousel from "./Carousel";
-import Book from "./Book";
 import About from "./About";
 import Services from "./Services";
 import Rooms from "./Rooms";
 import Sliders from "./Slider";
 
+
 export default function Home() {
   return (
     <>
       <Carousel/>
-      <Book/>
       <About/>
       <Rooms/>
       <Services/>
