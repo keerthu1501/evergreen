@@ -122,18 +122,24 @@ export const navList = [
       UnitItem: [
         {
           name: "About Us",
+          path: "/about",
+          
         },
         {
           name: "Contact Us",
+          path: "/contact",
         },
         {
           name: "Privacy Policy",
+          path: "/about",
         },
         {
           name: "Terms & Condition",
+          path: "/about",
         },
         {
           name: "Support",
+          path: "/about",
         },
       ],
     },
@@ -143,18 +149,23 @@ export const navList = [
       UnitItem: [
         {
           name: "Food & Dining",
+          path: "/about",
         },
         {
           name: "Parking",
+          path: "/about",
         },
         {
           name: "Popular Amenities",
+          path: "/about",
         },
         {
           name: "Basic Facilities",
+          path: "/about",
         },
         {
           name: "Safety and Security",
+          path: "/about",
         },
       ],
     },
@@ -167,7 +178,7 @@ export const navList = [
     },
     {
       icon: <i className="fa fa-phone-alt me-3"></i>,
-      name: "+91 8072508025",
+      name: "+91 6369309620",
     },
     {
       icon: <i className="fa fa-envelope me-3"></i>,
@@ -182,68 +193,56 @@ export const navList = [
       email: "evergreenmeadowsglamps@gmail.com",
     },
   ];
-  export const testimonial = [
-    {
-      description:
-        "nice place to visit and stay",
-      name: "Client Name",
-      profession: "Profession",
-      icon: (
-        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
-      ),
-      img: "https://iili.io/dRqTtSI.jpg",
-    },
-    {
-      description:
-        "very happy and adventures.we enjoyed with family",
-      name: "Client Name",
-      profession: "Profession",
-      icon: (
-        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
-      ),
-      img: "https://iili.io/dRqTtSI.jpg",
-    },
-    {
-      description:
-        "must visit .",
-      name: "Client Name",
-      profession: "Profession",
-      icon: (
-        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
-      ),
-      img: "https://iili.io/dRqTtSI.jpg",
-    },
-  ];
+
   
   export const roomItems = [
     {
       img: "https://iili.io/dYFne7j.md.jpg",
+      images: [
+        "https://iili.io/dMiFExf.md.jpg",
+        "https://iili.io/dMiFwJ9.md.jpg",
+        "https://iili.io/dMiFuPp.md.jpg",
+        "https://iili.io/dMiFTVR.md.jpg",
+      ],
       price: "Rs.2800 /Person",
       name: "THE MAJESTIC CROWN",
-      description:"Room : 1 King Bed | 4-6 Adults can stay ",
+      description: "Room : 1 King Bed | 4-6 Adults can stay",
       yellowbtn: "View Detail",
       darkbtn: "book now",
+      roomType: "King Bed",
+      amenities: "Air Conditioning, Free Wi-Fi, Breakfast Included"
     },
-  
     {
       img: "https://iili.io/dYFf26b.jpg",
+      images: [
+        "https://iili.io/dYFf26b.md.jpg",
+        "https://iili.io/dMiFeDb.md.jpg",
+        "https://iili.io/dMiFlNs.md.jpg"
+      ],
       price: "Rs.2000/Person",
       name: "VINTAGE POD",
-      description:
-        "Room : 1 bed | 4-5 Adults can stay",
+      description: "Room : 1 bed | 4-5 Adults can stay",
       yellowbtn: "View Detail",
       darkbtn: "book now",
+      roomType: "Single Bed",
+      amenities: "Free Wi-Fi, Breakfast Included"
     },
     {
       img: "https://iili.io/dYFnOdb.md.jpg",
+      images: [
+        "https://iili.io/dMiFvxj.md.jpg",
+        "https://iili.io/dMiFSiQ.md.jpg",
+      ],
       price: "Rs.1500/Person",
       name: "THE FRAME",
-      description:
-        "Room : 1 bed | 2 Adults can stay",
+      description: "Room : 1 bed | 2 Adults can stay",
       yellowbtn: "View Detail",
       darkbtn: "book now",
+      roomType: "Double Bed",
+      amenities: "Free Wi-Fi"
     },
   ];
+
   
 export const gallery = [
   {
@@ -292,3 +291,4 @@ export const gallery = [
     alt: "Image 3 Description"
   },
 ];
+

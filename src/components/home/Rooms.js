@@ -1,6 +1,8 @@
 import React from "react";
 import CommonHeading from "../common/CommonHeading";
 import { roomItems } from "../data/Data";
+import { Link } from "react-router-dom";
+
 
 export default function Rooms() {
   return (
@@ -29,12 +31,12 @@ export default function Rooms() {
                     </div>                  
                     <p className="text-body mb-3">{item.description}</p>
                     <div className="d-flex justify-content-between">
-                      <a
+                    <Link
+                        to={`/view-details/${item.name.replace(/\s+/g, '-').toLowerCase()}`}
                         className="btn btn-sm btn-primary rounded py-2 px-4"
-                        href=""
                       >
                         {item.yellowbtn}
-                      </a>
+                      </Link>
                       <a className="btn btn-sm btn-dark rounded py-2 px-4" href="https://wa.me/+918939316597?text=Hello!%20I%20would%20like%20to%20book%20a%20room%20at%20Evergreen%20Meadows%20Kodaikanal.">
                         {item.darkbtn}
                       </a>

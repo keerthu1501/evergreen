@@ -5,6 +5,10 @@
     --dark: #0F172B;
 }
 
+body {
+    overflow-x: hidden;
+  }
+  
 .fw-medium {
     font-weight: 500 !important;
 }
@@ -578,3 +582,72 @@
     opacity: 1; /* Show caption on hover */
   }
   
+
+/* Styles for the Sliders component */
+.container-xxl.testimonial {
+    background-color: #333; /* Dark background for contrast */
+    padding: 50px 0; /* Space around the component */
+  }
+  
+  .container-xxl.testimonial h2 {
+    color: #fff; /* White color for the heading */
+    text-align: center; /* Center-align the heading */
+    margin-bottom: 30px; /* Space below the heading */
+  }
+  
+  .testimonial-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff; /* White background for the testimonial items */
+    border-radius: 10px; /* Rounded corners for the items */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    padding: 20px; /* Space inside the item */
+    margin: 10px; /* Space around each item */
+  }
+  
+  iframe {
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Match the rounded corners */
+  }
+
+  /* view details  */
+  
+  /* Custom arrows */
+.custom-prev-arrow,
+.custom-next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px; /* Adjust the size of the arrows */
+  color: #fff; /* Arrow color */
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* Circle diameter */
+  height: 40px; /* Circle diameter */
+  background-color: rgba(0, 0, 0, 0.5); /* Black opaque circle */
+  border-radius: 50%; /* Make the background circular */
+}
+
+/* Position the previous arrow */
+.custom-prev-arrow {
+  left: 10px; /* Distance from the left edge */
+}
+
+/* Position the next arrow */
+.custom-next-arrow {
+  right: 55px; /* Distance from the right edge */
+}
+
+/* Optional: Style for better visibility */
+.custom-prev-arrow:before,
+.custom-next-arrow:before {
+  font-family: 'FontAwesome';
+  font-size: 24px;
+  color: #fff; /* Arrow icon color */
+}
+

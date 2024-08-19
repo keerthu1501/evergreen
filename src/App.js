@@ -11,16 +11,18 @@ import {
   Booking,
   AboutUs,
   Contact,
-  PageNotFound,
+  // PageNotFound,
   Room,
   Services,
   // Team,
-  Testimonial,
 } from "./pages/index";
 import Footer from "./components/common/Footer";
 import GalleryPage from "./pages/GalleryPage";
 import WhatsAppButton from './components/common/WhatsappButton';
 import ScrollToTop from "./components/home/ScrollToTop"; // Import ScrollToTop
+import ViewDetails from "./components/home/ViewDetails";
+
+
 
 export default function App() {
   return (
@@ -33,13 +35,15 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/booking" element={<Booking />} />
             {/* <Route path="/team" element={<Team />} /> */}
-            <Route path="/testimonial" element={<Testimonial />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/*" element={<PageNotFound />} />
+            {/* <Route path="/*" element={<PageNotFound />} /> */}
             <Route path="/rooms" element={<Room />} />
             <Route path="/services" element={<Services />} />
             <Route path="/gallery" element={<GalleryPage/>} />
+            <Route path="/view-details/:roomName" element={<ViewDetails />} />
+
+            
           </Routes>
           <WhatsAppButton />
           <Footer />

@@ -1,9 +1,9 @@
 // alter code for fixed navlist 
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { navList } from "../data/Data";
 import SocialIcons from "./SocialIcons";
+
 
 export default function Header() {
   const [navbarCollapse, setNavbarCollapse] = useState(false);
@@ -12,6 +12,7 @@ export default function Header() {
   const handleMouseEnter = (itemId) => {
     setActiveDropdown(itemId);
   };
+
 
   const handleMouseLeave = () => {
     setActiveDropdown(null);
@@ -89,5 +90,3 @@ export default function Header() {
     </>
   );
 }
-
-
