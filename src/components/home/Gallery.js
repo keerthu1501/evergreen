@@ -9,7 +9,7 @@ export default function Gallery() {
         <div className="container">
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
             <CommonHeading
-              heading="Our Gallery"
+              heading="Gallery"
               title="Gallery"
               subtitle="Explore Our"
             />

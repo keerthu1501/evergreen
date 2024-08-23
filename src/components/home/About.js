@@ -43,7 +43,7 @@ export default function About() {
                   <img
                     className="img-fluid rounded w-100 wow zoomIn" alt="about img 2"
                     data-wow-delay="0.2s"
-                    src="https://iili.io/daKDFiF.md.jpg"
+                    src="https://iili.io/dazGyx4.md.jpg"
                   />
                 </div>
         

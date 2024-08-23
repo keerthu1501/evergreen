@@ -9,7 +9,7 @@ export default function Services() {
         <div className="container">
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
             <CommonHeading
-              heading="Our Services"
+              heading="Services"
               title="Services"
               subtitle="Explore Our"
             />
@@ -34,3 +34,4 @@ export default function Services() {
     </>
   );
 }
+

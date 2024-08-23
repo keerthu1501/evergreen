@@ -10,7 +10,7 @@ export default function Rooms() {
       <div className="container-xxl py-5">
         <div className="container">
           <CommonHeading
-            heading="Our Rooms"
+            heading="Rooms"
             title="Rooms"
             subtitle="Explore Our"
           />

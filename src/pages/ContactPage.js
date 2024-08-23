@@ -81,6 +81,7 @@ export default function Contact() {
               style={{ minHeight: "350px", border: "0" }}
               allowFullScreen="map"
               aria-hidden="false"
+              title="contact"
               tabIndex="0">
               </iframe>
             </div>

@@ -651,3 +651,35 @@ body {
   color: #fff; /* Arrow icon color */
 }
 
+/* Ensure the reviews-embed-container takes full width and has some padding */
+.reviews-embed-container {
+    width: 100%;
+    padding: 2rem 0; /* Adjust padding as needed */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+
+  }
+  
+  .container-review {
+    max-width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    /* padding:  1rem;  */
+    overflow: hidden; 
+    
+  }
+  
+ 
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px; /* Rounded corners */
+    content-visibility:auto;
+  }
+  
+  

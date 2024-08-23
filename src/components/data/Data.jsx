@@ -83,34 +83,34 @@ export const navList = [
     {
       icon: <i class="fa fa-hotel fa-2x text-primary"></i>,
       name: "Rooms ",
-      discription: " With fresh, crisp air and stunning vistas at every turn",
+      description: " With fresh, crisp air and stunning vistas at every turn",
     },
     {
       icon: <i class="fa fa-utensils fa-2x text-primary"></i>,
       name: "Food & Dining",
-      discription: "Meals offered: You can choose from veg & non-veg meals | Cuisines available: Local, South Indian",
+      description: "Meals offered: You can choose from veg & non-veg meals | Cuisines available: Local, South Indian",
     },
     {
       icon: <i class="fa fa-spa fa-2x text-primary"></i>,
       name: "parking",
-      discription: "Shared Access | Onsite Parking is available",
+      description: "Shared Access | Onsite Parking is available",
     },
   
     {
       icon: <i class="fa fa-swimmer fa-2x text-primary"></i>,
       name: "popular amenities",
-      discription: "Barbeque | Shared Parking  Housekeeping | Luggage Assistance",
+      description: "Barbeque | Shared Parking  Housekeeping | Luggage Assistance",
     },
     {
       icon: <i class="fa fa-glass-cheers fa-2x text-primary"></i>,
       name: "Basic facilities",
-      discription: "Housekeeping | Smoking Rooms | Room Service | Umbrellas.",
+      description: "Housekeeping | Smoking Rooms | Room Service | Umbrellas.",
     },
   
     {
       icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
       name: "Safety and security",
-      discription: " CCTV | Fire Extinguishers",
+      description: " CCTV | Fire Extinguishers",
     },
   ];
  
