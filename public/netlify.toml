@@ -6,14 +6,3 @@
   from = "/*"
   to = "/index.html"
   status = 200
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; URL=/" />
-    <title>Page Not Found</title>
-  </head>
-  <body>
-    <p>If you are not redirected automatically, follow this <a href="/">link to the homepage</a>.</p>
-  </body>
-</html>

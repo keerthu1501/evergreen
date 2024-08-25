@@ -640,7 +640,7 @@ body {
 
 /* Position the next arrow */
 .custom-next-arrow {
-  right: 55px; /* Distance from the right edge */
+  right: 135px; /* Distance from the right edge */
 }
 
 /* Optional: Style for better visibility */
@@ -683,3 +683,22 @@ body {
   }
   
   
+
+/* style.css */
+.fade-in {
+    animation: fadeIn 1s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+
+  .btn-hover {
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-hover:hover {
+    background-color: #0056b3;
+  }
