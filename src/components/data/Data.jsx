@@ -78,42 +78,121 @@ export const navList = [
     },
   ];
  
-  
   export const services = [
     {
-      icon: <i class="fa fa-hotel fa-2x text-primary"></i>,
-      name: "Rooms ",
-      description: " With fresh, crisp air and stunning vistas at every turn",
+      id: 1,
+      icon: <i className="fa fa-hotel fa-2x text-primary"></i>,
+      name: "Rooms",
+      description: "With fresh, crisp air and stunning vistas at every turn",
+      backgroundImage: "https://iili.io/dMiFExf.md.jpg",
+
     },
     {
-      icon: <i class="fa fa-utensils fa-2x text-primary"></i>,
+      id: 2,
+      icon: <i className="fa fa-utensils fa-2x text-primary"></i>,
       name: "Food & Dining",
       description: "Meals offered: You can choose from veg & non-veg meals | Cuisines available: Local, South Indian",
+      menu: {
+        breakfast: [
+          "Pongal",
+          "Idly",
+          "Sambar",
+          "Chutney"
+        ],
+        dinner: [
+          "Chapathi",
+          "Egg Fried Rice",
+          "Chicken Curry",
+          "Starter BBQ Chicken"
+        ],
+        mainCourse: [
+          "Veg Fried Rice",
+          "Chicken Fried Rice",
+          "Chapathi (2nos)"
+        ],
+        gravyItems: [
+          "Veg Gravy",
+          "Egg Gravy",
+          "Chicken Gravy"
+        ],
+        starters: [
+          "Egg Omelette",
+          "Egg Podimas",
+          "Pepper Chicken",
+          "Chilly Chicken",
+          "BBQ Chicken"
+        ],
+        snacks: [
+          "Veg Maggie",
+          "Egg Maggie",
+          "Bread Omelette"
+        ],
+        drinks: [
+          "Milk",
+          "Tea",
+          "Coffee"
+        ]
+      },
+      backgroundImage: "https://iili.io/dazM3g9.md.jpg",
+
     },
     {
-      icon: <i class="fa fa-spa fa-2x text-primary"></i>,
-      name: "parking",
+      id: 3,
+      icon: <i className="fa fa-spa fa-2x text-primary"></i>,
+      name: "Glampfire  Experiences",
+      description: " Enjoy an evening under the stars with our fire pit setups with the charm of nature",
+      backgroundImage: "https://iili.io/dMiFExf.md.jpg",
+    },
+    {
+      id: 4,
+      icon: <i className="fa fa-spa fa-2x text-primary"></i>,
+      name: "GlampAssist",
+      menu: {
+        LuggageAssistance: [
+        " Our glamping site is monitored around the clock with CCTV cameras to ensure your safety and security at all times."
+        ],
+        Housekeeping: [
+        "We have installed solar fencing around the perimeter of our site to provide an added layer of protection against unauthorized access and wildlife."
+        ],
+        DoorstepService:[
+        "Fire extinguishers are strategically placed throughout the site for immediate access in case of a fire emergency, ensuring prompt action can be taken."
+        ],
+        
+      },
+      description: "Designed to enhance your glamping adventure, GlampAssist offers a range of premium supports",
+      backgroundImage: "https://iili.io/dMiFExf.md.jpg",
+    },
+    {
+      id: 5,
+      icon: <i className="fa fa-spa fa-2x text-primary"></i>,
+      name: "Parking",
       description: "Shared Access | Onsite Parking is available",
-    },
-  
-    {
-      icon: <i class="fa fa-swimmer fa-2x text-primary"></i>,
-      name: "popular amenities",
-      description: "Barbeque | Shared Parking  Housekeeping | Luggage Assistance",
+      backgroundImage: "https://iili.io/dMiFExf.md.jpg",
     },
     {
-      icon: <i class="fa fa-glass-cheers fa-2x text-primary"></i>,
-      name: "Basic facilities",
-      description: "Housekeeping | Smoking Rooms | Room Service | Umbrellas.",
-    },
-  
-    {
-      icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
-      name: "Safety and security",
-      description: " CCTV | Fire Extinguishers",
+      id: 6,
+      icon: <i className="fa fa-spa fa-2x text-primary"></i>,
+      name: "Safety and Security",
+      menu: {
+        CCTV: [
+        " Our glamping site is monitored around the clock with CCTV cameras to ensure your safety and security at all times."
+        ],
+        SolarFencing: [
+        "We have installed solar fencing around the perimeter of our site to provide an added layer of protection against unauthorized access and wildlife."
+        ],
+        FireExtinguisher:[
+        "Fire extinguishers are strategically placed throughout the site for immediate access in case of a fire emergency, ensuring prompt action can be taken."
+        ],
+        FirstAidKit:[
+        "A fully stocked first aid kit is available on-site to provide immediate medical assistance for minor injuries and emergencies."
+        ]
+        
+      },
+      description: " Ensure a worry-free and secure glamping experience with our comprehensive Safety and Security services",
+      backgroundImage: "https://iili.io/dMiFExf.md.jpg",
     },
   ];
- 
+  
   
   export const footerItem = [
     {

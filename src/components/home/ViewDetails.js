@@ -31,7 +31,7 @@ export default function ViewDetails() {
 
   return (
     <div className="container-xxl py-5">
-      <div className="container">
+      <div className="container" style={{ marginTop: "50px" }}>
         <CommonHeading
           heading={room.name}
           title={room.name}

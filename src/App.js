@@ -12,6 +12,8 @@ import "slick-carousel/slick/slick-theme.css";
 import "./css/animate.css";
 import "./css/animate.min.css";
 import "./App.css";
+import ViewService from "./components/home/ViewService";
+
 
 const Home = lazy(() => import("./components/home/Home"));
 const AboutUs = lazy(() => import("./pages/AboutUs"));
@@ -20,6 +22,7 @@ const Room = lazy(() => import("./pages/RoomPage"));
 const Services = lazy(() => import("./pages/ServicesPage"));
 const GalleryPage = lazy(() => import("./pages/GalleryPage"));
 const ViewDetails = lazy(() => import("./components/home/ViewDetails"));
+
 
 export default function App() {
   return (
@@ -36,6 +39,8 @@ export default function App() {
               <Route path="/services" element={<Services />} />
               <Route path="/gallery" element={<GalleryPage />} />
               <Route path="/view-details/:roomName" element={<ViewDetails />} />
+              <Route path="/service/:serviceId" element={<ViewService />} />
+
             </Routes>
           </Suspense>
           <Footer />

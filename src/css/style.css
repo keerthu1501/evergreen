@@ -702,3 +702,111 @@ body {
   .btn-hover:hover {
     background-color: #0056b3;
   }
+
+  /* Main container styling */
+  .container-xxl {
+    position: relative;
+    background-color: #f8f9fa; /* Fallback background color */
+    background-blur: 5px; /* Optional, for a frosted glass effect */
+    background-attachment: fixed; /* Keeps background image fixed on scroll */
+  }
+  /* Service image styling */
+  .service-image {
+    transition: transform 0.3s ease;
+  }
+  
+  .service-image:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Menu section styling */
+  .menu-section {
+    margin-top: 50px;
+  }
+  
+  .menu-title {
+    font-size: 3rem;
+    color: #000000;
+    background-color:whitesmoke;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+  }
+  
+  /* Menu card styling */
+  .menu-card {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .menu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  .sec-title{
+    font-size: 1.2rem;
+    color: #000000;
+    background-color: #ffffff;
+  }
+  /* Menu section title */
+  .menu-section-title {
+    font-size: 1.5rem;
+    color: #ff8c00;
+    margin-bottom: 15px;
+  }
+  
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust columns based on content */
+    gap: 15px;
+  }
+  /* Menu list styling */
+ 
+  .menu-item {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    color: #000000;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  .menu-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Service heading */
+  .service-heading {
+    margin-top: 20px;
+    background-color: #e3e2e2;
+  }
+  
+  /* Menu item hover animation */
+.menu-item:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-10px);
+  }
+  
+  /* Add a fade-in effect */
+  .menu-item {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s forwards;
+  }
+
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

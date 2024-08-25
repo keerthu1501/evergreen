@@ -1,6 +1,7 @@
 import React from "react";
 import CommonHeading from "../common/CommonHeading";
 import { services } from "../data/Data";
+import { Link } from "react-router-dom";
 
 export default function Services() {
   return (
@@ -15,17 +16,21 @@ export default function Services() {
             />
           </div>
           <div className="row g-4">
-            {services.map((item, index) => (
-              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <a className="service-item rounded" href="">
+            {services.map((item) => (
+              <div
+                key={item.id}
+                className="col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-delay="0.1s"
+              >
+                <Link className="service-item rounded" to={`/service/${item.id}`}>
                   <div className="service-icon bg-transparent border rounded p-1">
                     <div className="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
                       {item.icon}
                     </div>
                   </div>
                   <h5 className="mb-3">{item.name}</h5>
-                  <p className="text-body mb-0">{item.discription}</p>
-                </a>
+                  <p className="text-body mb-0">{item.description}</p>
+                </Link>
               </div>
             ))}
           </div>
@@ -34,4 +39,3 @@ export default function Services() {
     </>
   );
 }
-
