@@ -54,7 +54,7 @@ export default function ViewService() {
           {/* Display Menu if available */}
           {service.menu && (
             <div className="menu-section mt-5">
-              <h3 className="menu-title">Menu</h3>
+              {/* <h3 className="menu-title">Menu</h3> */}
               {Object.keys(service.menu).map((section, index) => (
                 <div
                   key={index}

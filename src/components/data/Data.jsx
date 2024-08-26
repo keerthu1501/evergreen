@@ -83,7 +83,42 @@ export const navList = [
       id: 1,
       icon: <i className="fa fa-hotel fa-2x text-primary"></i>,
       name: "Rooms",
-      description: "With fresh, crisp air and stunning vistas at every turn"
+      description: "With fresh, crisp air and stunning vistas at every turn",
+      menu: {
+        "Majestic Crown (Premium)": [
+          "Internet: Available",
+          "Bathroom: Attached",
+          "Hot Water: Available",
+          "Kettle: Available",
+          "Dining: Available",
+          "Camp Fire: Private",
+          "Lawn: Private",
+          "Television: Available",
+          "Speaker: Available"
+        ],
+        "A Frame (Pocket Friendly)": [
+          "Internet: Not Available",
+          "Bathroom: Common",
+          "Hot Water: Available",
+          "Kettle: Not Available",
+          "Dining: Not Available",
+          "Camp Fire: Common",
+          "Lawn: Common",
+          "Television: Not Available",
+          "Speaker: Not Available"
+        ],
+        "Vintage Pods (Elite)": [
+          "Internet: Available",
+          "Bathroom: Attached",
+          "Hot Water: Available",
+          "Kettle: Available",
+          "Dining: Available",
+          "Camp Fire: Common",
+          "Lawn: Common",
+          "Television: Not Available",
+          "Speaker: Not Available"
+        ],
+      },
 
     },
     {
@@ -225,19 +260,19 @@ export const navList = [
         },
         {
           name: "Parking",
-          path: "/about",
+          path: "/service/5",
         },
         {
-          name: "Popular Amenities",
-          path: "/about",
+          name: "Glamp fire",
+          path: "/service/3",
         },
         {
-          name: "Basic Facilities",
-          path: "/about",
+          name: "Glamp assist",
+          path: "/service/4",
         },
         {
           name: "Safety and Security",
-          path: "/about",
+          path: "/service/6",
         },
       ],
     },
