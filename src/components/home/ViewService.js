@@ -34,10 +34,10 @@ export default function ViewService() {
       <div className="container">
         <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
           <h1 className="service-heading" style={{ marginTop: "50px" }}>{service.name} {service.icon}</h1>
-          <p className="sec-title">{service.description}</p>
+          {/* <p className="sec-title">{service.description}</p> */}
 
           {/* Display Images */}
-          {service.images && service.images.length > 0 && (
+          {/* {service.images && service.images.length > 0 && (
             <div className="row">
               {service.images.map((image, index) => (
                 <div className="col-md-4" key={index}>
@@ -49,7 +49,7 @@ export default function ViewService() {
                 </div>
               ))}
             </div>
-          )}
+          )} */}
 
           {/* Display Menu if available */}
           {service.menu && (

@@ -83,8 +83,7 @@ export const navList = [
       id: 1,
       icon: <i className="fa fa-hotel fa-2x text-primary"></i>,
       name: "Rooms",
-      description: "With fresh, crisp air and stunning vistas at every turn",
-      backgroundImage: "https://iili.io/dMiFExf.md.jpg",
+      description: "With fresh, crisp air and stunning vistas at every turn"
 
     },
     {
@@ -132,16 +131,13 @@ export const navList = [
           "Tea",
           "Coffee"
         ]
-      },
-      backgroundImage: "https://iili.io/dazM3g9.md.jpg",
-
+      }
     },
     {
       id: 3,
       icon: <i className="fa fa-spa fa-2x text-primary"></i>,
       name: "Glampfire  Experiences",
-      description: " Enjoy an evening under the stars with our fire pit setups with the charm of nature",
-      backgroundImage: "https://iili.io/dMiFExf.md.jpg",
+      description: " Enjoy an evening under the stars with our fire pit setups with the charm of nature"
     },
     {
       id: 4,
@@ -160,14 +156,12 @@ export const navList = [
         
       },
       description: "Designed to enhance your glamping adventure, GlampAssist offers a range of premium supports",
-      backgroundImage: "https://iili.io/dMiFExf.md.jpg",
     },
     {
       id: 5,
       icon: <i className="fa fa-spa fa-2x text-primary"></i>,
       name: "Parking",
       description: "Shared Access | Onsite Parking is available",
-      backgroundImage: "https://iili.io/dMiFExf.md.jpg",
     },
     {
       id: 6,
@@ -189,7 +183,6 @@ export const navList = [
         
       },
       description: " Ensure a worry-free and secure glamping experience with our comprehensive Safety and Security services",
-      backgroundImage: "https://iili.io/dMiFExf.md.jpg",
     },
   ];
   
@@ -228,7 +221,7 @@ export const navList = [
       UnitItem: [
         {
           name: "Food & Dining",
-          path: "/about",
+          path: "/service/2",
         },
         {
           name: "Parking",
