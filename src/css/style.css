@@ -26,6 +26,11 @@ body {
 }
 
 
+.fixed-top {
+  transition: background-color 0.2s ease;
+}
+
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -108,13 +113,15 @@ body {
     }
 }
 
+
+
 /*** Header ***/
 .carousel-caption {
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(15, 23, 43, .7);
+    background: rgba(44, 44, 44, 0.3);
     z-index: 1;
 }
 
@@ -142,6 +149,7 @@ body {
         object-fit: cover;
     }
 }
+
 
 .page-header {
     background-position: center center;
