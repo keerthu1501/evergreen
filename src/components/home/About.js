@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 export default function About() {
@@ -25,9 +26,9 @@ export default function About() {
               So come, relax and immerse yourself in the stunning scenery, as you indulge in the very best of glamping.
               </p>
              
-              <a className="btn btn-primary py-3 px-5 mt-2" href="https://www.youtube.com/@evergreenmeadowsglamps">
-                Explore More
-              </a>
+              <Link to="/services" className="btn btn-primary py-3 px-5 mt-2">
+              Explore More
+              </Link>
             </div>
             <div className="col-lg-6">
               <div className="row g-3">

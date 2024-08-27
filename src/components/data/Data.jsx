@@ -1,3 +1,6 @@
+// data.jsx
+export const logo = "https://iili.io/dafOcmv.md.png"; // Adjust the path if necessary
+
 export const navList = [
     {
       id: 1,
@@ -176,7 +179,7 @@ export const navList = [
     },
     {
       id: 4,
-      icon: <i className="fa fa-spa fa-2x text-primary"></i>,
+      icon: <i className="fa fa-hands-helping fa-2x text-primary"></i>,
       name: "GlampAssist",
       menu: {
         LuggageAssistance: [
@@ -194,13 +197,23 @@ export const navList = [
     },
     {
       id: 5,
-      icon: <i className="fa fa-spa fa-2x text-primary"></i>,
+      icon: <i className="fa fa-parking fa-2x text-primary"></i>,
       name: "Parking",
       description: "Shared Access | Onsite Parking is available",
+      menu: {
+        Access:[
+          "Access to our site is possible via  bike,car or bus.",
+          "The site is strategically positioned a top scenic hill,Providing a breath taking viewpoint.To reach this location ,A short trek of 0.5 Km is required "
+        ],
+        Onsiteparking:[
+          " If arriving by own car or bike ,Please use the designated parking area"
+        ],
+     
+      },
     },
     {
       id: 6,
-      icon: <i className="fa fa-spa fa-2x text-primary"></i>,
+      icon: <i className="fa fa-user-shield fa-2x text-primary"></i>,
       name: "Safety and Security",
       menu: {
         CCTV: [
@@ -237,7 +250,7 @@ export const navList = [
           path: "/contact",
         },
         {
-          name: "Privacy Policy",
+          name: "Refund Policy",
           path: "/about",
         },
         {
