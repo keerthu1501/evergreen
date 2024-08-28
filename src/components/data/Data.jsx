@@ -257,10 +257,7 @@ export const navList = [
           name: "Terms & Condition",
           path: "/about",
         },
-        {
-          name: "Support",
-          path: "/about",
-        },
+        
       ],
     },
     {
